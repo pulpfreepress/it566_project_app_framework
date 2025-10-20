@@ -8,4 +8,10 @@ Application framework for semester project.
 - Copy the contents of the app_framework directory to your repository directory
 - Begin work on your project
 
+## Create Virtual Environment with PipEnv
+
+- pipenv --python 3.12
+- pipenv --install
+
+
 
