@@ -11,7 +11,7 @@ Application framework for semester project.
 ## Create Virtual Environment with PipEnv
 
 - pipenv --python 3.12
-- pipenv --install
+- pipenv install
 
 
 
