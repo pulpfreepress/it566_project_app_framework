@@ -13,5 +13,9 @@ Application framework for semester project.
 - pipenv --python 3.12
 - pipenv install
 
+## Miscellaneous Notes
+
+- Note 1
+
 
 
