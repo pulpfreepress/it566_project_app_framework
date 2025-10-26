@@ -30,7 +30,7 @@ class MySQLPersistenceWrapper(ApplicationBase):
 
 		# Database Connection
 		#self._connection_pool = \
-		#	self._initialize_database_connection_pool(self.DB_CONFIG)
+			#self._initialize_database_connection_pool(self.DB_CONFIG)
 		
 
 		# SQL String Constants
@@ -55,6 +55,7 @@ class MySQLPersistenceWrapper(ApplicationBase):
 				MySQLConnectionPool(pool_name = self.DATABASE["pool"]["name"],
 					pool_size=self.DATABASE["pool"]["size"],
 					pool_reset_session=self.DATABASE["pool"]["reset_session"],
+					use_pure=self.DATABASE["pool"]["use_pure"],
 					**config)
 			self._logger.log_debug(f'{inspect.currentframe().f_code.co_name}: Connection pool successfully created!')
 			return cnx_pool
